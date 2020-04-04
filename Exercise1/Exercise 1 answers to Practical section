@@ -1,1 +1,6 @@
 
+Accuracy with default parameters: 23,11%
+
+Accuracy with Adam optimizer : 60,85%
+
+Accuracy with CNN_basic copy with tanh function: 52,94%
