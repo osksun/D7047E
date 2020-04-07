@@ -12,3 +12,9 @@ while the second run downloads a pretrained model and trains on neurons that has
 
 
 2.2 Transfer Learning from MNIST
+
+CNN_basic accuracy on SVHN: 14.916%
+
+CNN_basic accuracy on MNIST:
+
+CNN_basic trained on MNIST loaded and trained on SVHN: 30,032%
