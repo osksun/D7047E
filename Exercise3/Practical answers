@@ -2,5 +2,11 @@ CNN_Basic accuracy for MNIST with 1 epoch and lr 1e-6: 9.140%
 
 CNN_Basic accuracy for MNIST with 10 epochs and lr 1e-6: 9.140%
 
+Differences between PCA and t-SNE: t-SNE does a better job at preserving the local structure compared to PCA.
+Differences between 1 epoch and 10 epochs: We could not detect any significant changes between 1 and 10 epochs. 
+The accuracy is the same and the points in the PCA visualization were pretty much the same.
+
+
 Extra:
+We found it strange that there was no difference between 1 and epochs so we decided to include the accuracy for the model using a higher learning rate.
 CNN_Basic accuracy for MNIST with 10 epochs and lr 1e-3: 91.26%
