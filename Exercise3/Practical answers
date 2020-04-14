@@ -2,4 +2,5 @@ CNN_Basic accuracy for MNIST with 1 epoch and lr 1e-6: 9.140%
 
 CNN_Basic accuracy for MNIST with 10 epochs and lr 1e-6: 9.140%
 
-
+Extra:
+CNN_Basic accuracy for MNIST with 10 epochs and lr 1e-3: 91.26%
