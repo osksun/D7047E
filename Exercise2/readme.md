@@ -1,5 +1,5 @@
 # Answers to practical part
-2.1 Transfer Learning from ImageNet
+## 2.1 Transfer Learning from ImageNet
 
 AlexNet accuracy on CIFAR10: 13.890%
 
@@ -8,7 +8,7 @@ AlexNet accuracy on CIFAR10 using pretrained model: 86.750%
 The difference is that in the first run we trained the model ourselves on the CIFAR10 dataset with untrained neurons
 while the second run downloads a pretrained model and trains on neurons that has already been trained on before.
 
-2.2 Transfer Learning from MNIST
+## 2.2 Transfer Learning from MNIST
 
 CNN_basic accuracy on SVHN: 14,916%
 
