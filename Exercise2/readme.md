@@ -1,3 +1,4 @@
+Commands and parts of logs used for this exercise
 ```sh
 # Train AlexNet on CIFAR10 with seed=42.
 python template/RunMe.py --model-name alexnet --output-folder exercise_2_log --dataset-folder toy_datasets/CIFAR10 --seed 42 --ignoregit --no-cuda
