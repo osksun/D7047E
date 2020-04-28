@@ -1,4 +1,23 @@
-Commands and parts of logs used for this exercise
+# Answers to practical part
+2.1 Transfer Learning from ImageNet
+
+AlexNet accuracy on CIFAR10: 13.890%
+
+AlexNet accuracy on CIFAR10 using pretrained model: 86.750% 
+
+The difference is that in the first run we trained the model ourselves on the CIFAR10 dataset with untrained neurons
+while the second run downloads a pretrained model and trains on neurons that has already been trained on before.
+
+2.2 Transfer Learning from MNIST
+
+CNN_basic accuracy on SVHN: 14,916%
+
+CNN_basic accuracy on MNIST: 88,39%
+
+CNN_basic trained on MNIST loaded and trained on SVHN: 30,032%
+
+
+# Commands and parts of logs used for this exercise
 ```sh
 # Train AlexNet on CIFAR10 with seed=42.
 python template/RunMe.py --model-name alexnet --output-folder exercise_2_log --dataset-folder toy_datasets/CIFAR10 --seed 42 --ignoregit --no-cuda
